@@ -93,7 +93,9 @@ padding: 0 auto;
 .development:hover{
     transform: rotate(360deg);
 }
-.icon1{
+.icon1{display: flex;
+    justify-content: center;
+    
   align-items: center;
     font-size: 35px;
     padding: 5px;
@@ -114,7 +116,10 @@ padding: 0 auto;
     display: flex;
     width: 470px;
 }
-.icon2{
+.icon2{display: flex;
+    justify-content: center;
+    
+  align-items: center;
     font-size: 35px;
     padding: 5px;
     background-color: #2fec2c;
@@ -134,7 +139,10 @@ padding: 0 auto;
     display: flex;
     width: 470px;
 }
-.icon3{
+.icon3{display: flex;
+    justify-content: center;
+    
+  align-items: center;
     font-size: 35px;
     padding: 5px;
     background-color: #2fec2c;
@@ -159,7 +167,10 @@ padding: 0 auto;
 .green:hover{
     transform: rotate(360deg);
 }
-.icon4{
+.icon4{display: flex;
+    justify-content: center;
+    
+  align-items: center;
     font-size: 35px;
     padding: 5px;
     background-color: #2fec2c;
@@ -222,6 +233,7 @@ border: none;
     letter-spacing: 1px;
     margin: 61px auto 58px;
     padding: 16px 54px 18px;
+    text-emphasis: bold;
 }
 button:hover{
     transform: 0.5s;
@@ -523,6 +535,7 @@ a{
 }
 
 .question {font-size: 18px;
+    margin-bottom: 20px;
     background-color:white;
     color: black;
     padding: 10px;
@@ -539,7 +552,7 @@ a{
     display: none;
     padding: 10px;
     background-color: #ecf0f1;
-    border: 1px solid #3498db;
+    border: none;
     border-radius: 5px;
     margin-top: 5px;
 }
