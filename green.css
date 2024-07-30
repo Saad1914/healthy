@@ -3,22 +3,6 @@
     padding: 0%;
 
     font-family: "Open Sans", sans-serif;
- 
-
-}
-
-@media (max-width: 786px) {
-   
-    .paragraph1 {
-        flex-direction: column;
-        
-    }
-    .dev-des{
-        flex-direction: column;
-    }
-    .mat-tech{
-        flex-direction: column;
-    }
 
 }
 
@@ -233,7 +217,7 @@ border: none;
     letter-spacing: 1px;
     margin: 61px auto 58px;
     padding: 16px 54px 18px;
-    text-emphasis: bold;
+    
 }
 button:hover{
     transform: 0.5s;
@@ -555,4 +539,168 @@ a{
     border: none;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+@media (max-width: 786px) {
+    .title{
+        font-size: 25px;
+        width: 400px;
+        
+    }
+    .text1{
+        font-size: 13px;
+        
+        width: 400px;
+    }
+    .paragraph1{
+        flex-direction: column;
+    }
+    .text2{
+        font-size: 13px;
+        
+        width: 400px;
+    }
+    .dev-des{
+        flex-direction: column;
+    }
+    .development{
+        font-size: 13px;
+        
+        width: 400px;
+    }
+    .design{
+        font-size: 13px;
+        
+        width: 400px;
+    }
+    .mat-tech{
+        flex-direction: column;
+    }
+    .material{
+        font-size: 13px;
+        width: 400px;
+    }
+    .green{
+        font-size: 13px;
+        width: 400px;
+    }
+.cube{
+    width: 200px;
+    height: 200px;
+}
+.h-main2{
+    font-size: 15px;
+        width: 400px;
+}
+.p5{
+    font-size: 13px;
+        width: 400px;
+}
+.h-main3{
+    font-size: 25px;
+    width: 380px;
+}
+.p6{
+    font-size: 13px;
+        width: 400px;
+    margin-left: 50px;    
+    }
+    .main4{
+        flex-direction: column;
+        font-size: 13px;
+        width: 400px;
+    }
+    .que{
+        font-size: 18px;
+        width: 700px;
+    }
+    .sample{
+        font-size: 13px;
+        width: 700px;
+    }
+    .question{
+        font-size: 13px;
+        width: 700px;
+    }
+    .answer{
+        font-size: 13px;
+        width: 700px;
+    }
+.main5{
+    flex-direction: column;
+}
+.p8{
+    font-size: 20px;
+}
+.quick{
+    font-size: 13px;
+        width: 400px;
+}
+.p9{
+    font-size: 13px;
+        width: 400px;
+}
+.he6{
+    font-size: 19px;
+        width: 400px;
+}
+.p12{
+    font-size: 13px;
+        width: 400px;
+}
+.p13{
+    font-size: 13px;
+        width: 400px;
+}
+.percent{
+    flex-direction: column;
+
+}
+.per{
+    font-size: 25px;
+        width: 200px;
+}
+.fifty{
+    text-align: center;
+    font-size: 13px;
+        width: 200px;
+}
+.seventeen{
+    text-align: center;
+    font-size: 13px;
+        width: 200px;
+}
+.twenty{
+    text-align: center;
+    font-size: 13px;
+        width: 200px;
+}
+.thirteen{
+    text-align: center;
+    font-size: 13px;
+        width: 200px;
+}
+.h-main7{
+    font-size: 25px;
+width: 600px;
+}
+.input{
+    flex-direction: column;
+    width: 400px;
+}
+.para14{
+font-size: 13px;
+width: 700px;
+}
+.para15{
+    font-size: 13px;
+width: 700px;
+}
+.p16{
+    font-size: 13px;
+    width: 300px;
+}
+.link{
+    margin-left: 360px;
+}
 }
